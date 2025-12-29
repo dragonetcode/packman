@@ -4,7 +4,7 @@ from settings import SCREEN_WIDTH, SCREEN_HEIGHT, FPS
 
 pygame.init()
 screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-pygame.display.set_caption("Pac‑Man Raspberry Pi")
+pygame.display.set_caption("Pac-Man Grid Based")
 clock = pygame.time.Clock()
 
 game = Game(screen)
